@@ -12,8 +12,9 @@
                 <nav>
                     <ul class="md:flex items-center justify-between text-base text-gray-700 pt-4 md:pt-0">
                         <li><router-link class="inline-block no-underline hover:text-black hover:underline py-2 px-4" to="/">Home</router-link></li>
-                        <li><router-link class="inline-block no-underline hover:text-black hover:underline py-2 px-4" to="/aidata">AI Data</router-link></li>
-                        <li><router-link class="inline-block no-underline hover:text-black hover:underline py-2 px-4" to="/webdata">Web Data</router-link></li>
+                        <li><router-link class="inline-block no-underline hover:text-black hover:underline py-2 px-4" to="/Aidata">AI Data</router-link></li>
+                        <li><router-link class="inline-block no-underline hover:text-black hover:underline py-2 px-4" to="/Webdata">Web Data</router-link></li>
+                        <li><router-link class="inline-block no-underline hover:text-black hover:underline py-2 px-4" to="/Project">Project</router-link></li>
                         <li><router-link class="inline-block no-underline hover:text-black hover:underline py-2 px-4" to="/About">About</router-link></li>
                     </ul>
                 </nav>

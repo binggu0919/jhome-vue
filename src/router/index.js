@@ -4,6 +4,7 @@ import Home from '../views/Home.vue'
 import About from '../views/About.vue'
 import Webdata from '../views/WebData.vue'
 import Aidata from '../views/Aidata.vue'
+import Project from '../views/Project.vue'
 
 Vue.use(VueRouter)
 
@@ -19,14 +20,19 @@ const routes = [
     component: About
   },
   {
-    path: '/aidata',
+    path: '/Aidata',
     name: 'Aidata',
     component: Aidata
   },
   {
-    path: '/webdata',
+    path: '/Webdata',
     name: 'WebData',
     component: Webdata
+  },
+  {
+    path: '/project',
+    name: 'project',
+    component: Project
   }
 ]
 
